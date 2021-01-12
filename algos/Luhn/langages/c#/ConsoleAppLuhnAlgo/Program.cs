@@ -18,33 +18,17 @@ namespace ConsoleAppLuhnAlgo
             Console.WriteLine("2 - Test d'une séquence manuelle");
             Console.WriteLine("q - Quitter");
 
-            CheckChoice();
+             ApplyChoice(Console.ReadLine());
         }
-
-        private static void CheckChoice(){
-            var sequenceChoice = string.Empty;
-            var choiceIsValid = false;
-
-            bool CheckValiditySequenceChoice(string choice){
-                return choice == "1" || choice == "2" || choice == "q";
-            }
-
-            while(!choiceIsValid){
-                sequenceChoice = Console.ReadLine();
-                choiceIsValid = CheckValiditySequenceChoice(sequenceChoice);
-                if(choiceIsValid == false) Console.WriteLine("Choix invalide ! Recommencez :");
-            }
-
-            ApplyChoice(sequenceChoice);
-        }
-
         private static void ApplyChoice(string choice){
             switch(choice){
                 case "1": GenerateAutomaticSequence();
                 break;
                 case "2" : GenerateManualSequence();
                 break;
-                default: CloseApp();
+                case "q" : CloseApp();
+                break;
+                default: InitApp();
                 break;
             }
         }
@@ -82,31 +66,27 @@ namespace ConsoleAppLuhnAlgo
 
         private static void CalculateDoubles(List<int>sequence){
             Console.WriteLine(string.Join("\t", sequence));
-            var sequenceWithoutKey = GetSequenceWithoutLuhnKey(sequence);
-        
-            for(var i=sequenceWithoutKey.Count-1; i >= 0; i = i-2) {
-                var number = sequenceWithoutKey[i] * 2;
-                sequenceWithoutKey[i] = number >= 10 ? RecalculateNumber(number) : number; 
+            
+            sequence.RemoveAt(sequence.Count - 1);
+            
+            for(var i=sequence.Count-1; i >= 0; i = i-2) {
+                var number = sequence[i] * 2;
+                sequence[i] = number >= 10 ? GetSplitSum(number) : number; 
             }
             
-            Console.WriteLine(string.Join("\t", sequenceWithoutKey));
+            Console.WriteLine(string.Join("\t", sequence));
 
-            CheckIfSequenceIsValid(sequenceWithoutKey);
+            ApplyResult(sequence);
         }
 
-        private static List<int>GetSequenceWithoutLuhnKey(List<int>sequence){
-            sequence.RemoveAt(sequence.Count - 1);
-            return sequence;
-        }
-
-        private static void CheckIfSequenceIsValid( List<int>sequence){
+        private static void ApplyResult( List<int>sequence){
             var sequenceSum = sequence.Sum();
             var mod10 = sequenceSum % 10 ;
             Console.WriteLine(sequenceSum +" % 10 = "+mod10);
             Console.WriteLine( "La séquence est " + (mod10 == 0 ? "valide" : "invalide"));
             InitApp();
         }
-        private static int RecalculateNumber(int value){
+        private static int GetSplitSum(int value){
 
             var valuesIntArray = new List<int>();
             value.ToString().Select(x=> int.Parse(x.ToString())).ToList().ForEach(delegate(int val){
