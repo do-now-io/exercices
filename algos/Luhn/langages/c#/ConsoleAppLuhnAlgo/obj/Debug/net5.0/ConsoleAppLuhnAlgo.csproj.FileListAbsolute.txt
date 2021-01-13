@@ -1,0 +1,16 @@
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.exe
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.deps.json
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.runtimeconfig.json
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.runtimeconfig.dev.json
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.dll
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ref\ConsoleAppLuhnAlgo.dll
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\bin\Debug\net5.0\ConsoleAppLuhnAlgo.pdb
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.csprojAssemblyReference.cache
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.dll
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ref\ConsoleAppLuhnAlgo.dll
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.pdb
+C:\Users\antho\OneDrive\Documents\Donow\Dev\exercices\algos\Luhn\langages\c#\ConsoleAppLuhnAlgo\obj\Debug\net5.0\ConsoleAppLuhnAlgo.genruntimeconfig.cache
